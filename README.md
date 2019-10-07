@@ -1,8 +1,12 @@
 # Nomes Populares de Bebês
 
 Nomes populares de bebês por sexo e grupos étnicos Os dados foram coletados através do registro civil de nascimento.
-Cada registro representa a classificação de um nome de bebê na ordem da frequência. Os dados podem ser usados ​​para representar a popularidade de um nome. 
-Esses dados foram extráidos da cidade de Nova York nos EUA
+
+Cada registro representa a classificação de um nome de bebê na ordem da frequência.
+
+Os dados podem ser usados ​​para representar a popularidade de um nome. 
+
+Esses dados foram extraídos da cidade de Nova York nos EUA.
 
 ## Datas
 ```
@@ -21,17 +25,33 @@ cd PopularBabyNames
 ```
 
 ## Dataset
-* Popular Baby Names extraido de [data.gov](https://catalog.data.gov/dataset/most-popular-baby-names-by-sex-and-mothers-ethnic-group-new-york-city-8c742)
+* Popular Baby Names extraído de [data.gov](https://catalog.data.gov/dataset/most-popular-baby-names-by-sex-and-mothers-ethnic-group-new-york-city-8c742)
 
 ## Bibliotecas Utilizadas
 * pandas 0.25.1
 ```
 pip3 install pandas
 ```
+
 * Jupyter Notebook
 ```
 pip3 install jupyter
 pip3 install --upgrade pip
+```
+
+* Seaborn
+```
+pip3 install seaborn
+```
+
+* Matplotlib
+```
+pip3 install matplotlib
+```
+
+* NumPy
+```
+pip3 install numpy
 ```
 
 ## Tecnologia
@@ -39,3 +59,7 @@ pip3 install --upgrade pip
 
 ## IDE
 * Visual Studio Code
+
+### Extensões utilizadas
+* [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [neuron for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=neuron.neuron-IPE)
